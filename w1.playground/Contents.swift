@@ -282,16 +282,18 @@ func printS(line:Int){
 }
 printS(line:7)
 print()
-*/
+
 
 print("변수")
 func printS(line:Int){
     for i in 1...line{
         var result=""
-        if i<line/2+1{
+        if i<=line/2+1{
+            var dec=line-(line/2+1)
             let inc=i*2-1
-            for j in stride(from:(line-i)/2,to:0,by:-1){
-                result += " "
+            for j in 1...dec{
+                result += "⎵"
+                dec -= 1
             }
             
             for j in 1...inc{
@@ -299,11 +301,68 @@ func printS(line:Int){
             }
         }
         else {
-            for j in stride(from:0,to:(line-i)/2,by:1){
-                result += " "
+            let inc=line-i
+            let dec=(line-i)*2
+            for j in 1...inc{
+                result += "⎵"
             }
             
-            for j in stride(from:line,to:1,by:-2){
+            for j in 1...dec{
+                result += "*"
+            }
+        }
+        print (result)
+    }
+}
+printS(line:7)
+print()
+
+
+
+func printDiamond(lines:Int)
+{
+    let mid=(lines-1)/2
+    for i in 0..<lines
+    {
+        let sp = abs(i - mid);
+
+        for j in 0..<lines
+        {
+            if ((j<sp) || (lines-j<=sp)){print("⎵",terminator:"")}
+            else {print("*",terminator:"")}
+        }
+        print()
+    }
+
+}
+printDiamond(lines: 6)
+print()
+*/
+
+
+print("변수")
+func printS(line:Int){
+    for i in 1...line{
+        var result=""
+        if i<=line/2+1{
+            var dec=(line/2+1)-i
+            let inc=i*2-1
+            for j in 1...dec{
+                result += "⎵"
+            }
+            
+            for j in 1...inc{
+                result += "*"
+            }
+        }
+        else {
+            let inc=line-i-1
+            let dec=(line-i)*2-1
+            for j in 1...inc{
+                result += "⎵"
+            }
+            
+            for j in 1...dec{
                 result += "*"
             }
         }

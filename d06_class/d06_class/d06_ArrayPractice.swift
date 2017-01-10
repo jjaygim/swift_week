@@ -28,5 +28,20 @@ struct arrayPractice{
         }
         return resultArray
     }
+    func fillArray(line:Int)->Array<Array<Int>>{
+        var num=1
+        var result=Array<Array<Int>>()
+        for i in 1...line{
+            var fillArray=Array<Int>()
+            for j in 1...i{
+                fillArray.append(num)
+                num+=1
+            }
+            //print()
+            num+=(line-i)
+            result.append(fillArray)
+        }
+        return result
+    }
 }
 

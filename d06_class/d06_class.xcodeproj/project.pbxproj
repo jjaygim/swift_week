@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F422ED141E247282003A722A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F422ED131E247282003A722A /* main.swift */; };
 		F422ED1B1E247384003A722A /* d06_StructPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F422ED1A1E247384003A722A /* d06_StructPractice.swift */; };
+		F422ED1D1E248E4E003A722A /* d06_ArrayPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F422ED1C1E248E4E003A722A /* d06_ArrayPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		F422ED101E247282003A722A /* d06_class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = d06_class; sourceTree = BUILT_PRODUCTS_DIR; };
 		F422ED131E247282003A722A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F422ED1A1E247384003A722A /* d06_StructPractice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d06_StructPractice.swift; sourceTree = "<group>"; };
+		F422ED1C1E248E4E003A722A /* d06_ArrayPractice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = d06_ArrayPractice.swift; path = ../d06_ArrayPractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				F422ED131E247282003A722A /* main.swift */,
+				F422ED1C1E248E4E003A722A /* d06_ArrayPractice.swift */,
 				F422ED1A1E247384003A722A /* d06_StructPractice.swift */,
 			);
 			path = d06_class;
@@ -125,6 +128,7 @@
 			files = (
 				F422ED1B1E247384003A722A /* d06_StructPractice.swift in Sources */,
 				F422ED141E247282003A722A /* main.swift in Sources */,
+				F422ED1D1E248E4E003A722A /* d06_ArrayPractice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +258,7 @@
 				F422ED191E247282003A722A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

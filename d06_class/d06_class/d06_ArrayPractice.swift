@@ -77,7 +77,9 @@ struct arrayPractice{
                 else {
                     print(newChar,terminator:"")
                 }
+                
             }
+            print()
         }
         
     }

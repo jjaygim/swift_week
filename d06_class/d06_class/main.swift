@@ -31,3 +31,33 @@ let boolA=arrayPractice()
 print(boolA.setBoolArray(line: 5))
 boolA.printArray(array:boolA.setBoolArray(line:5), newChar: "$")
 
+
+
+//D07_20170111
+
+let fileM=FileManager()
+var result:[String]=[]
+do{
+    //fileM.subpaths(atPath: "/Library/Desktop Pictures")
+    result=try fileM.contentsOfDirectory(atPath: "/Library/Desktop Pictures")
+    //fileM.enumerator(atPath: "/Library/Desktop Pictures")
+}
+catch let error as NSError{
+    print("에러: /(error)")
+}
+print(result)
+//"/Library/Desktop Pictures"
+
+
+let origin=CGPoint(x:0,y:0)
+var other=origin
+other.x += 10
+var another=origin
+another.y += 5
+
+func add3(pointA: inout CGPoint){
+    
+}
+
+
+

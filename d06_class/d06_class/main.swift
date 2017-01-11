@@ -26,3 +26,8 @@ testInterest(unitDay:100)
 let arrPra=arrayPractice()
 arrPra.printArray(array:arrPra.tempArray(lines:5))
 //arrayPractice.printArray(array:arrayPractice.tempArray(lines:5))
+
+let boolA=arrayPractice()
+print(boolA.setBoolArray(line: 5))
+boolA.printArray(array:boolA.setBoolArray(line:5), newChar: "$")
+

@@ -17,6 +17,7 @@ struct arrayPractice{
             print()
         }
     }
+    
     func tempArray(lines:Int)->Array<Array<Int>>{
         var resultArray=Array<Array<Int>>()
         for _ in 1...lines{
@@ -28,6 +29,7 @@ struct arrayPractice{
         }
         return resultArray
     }
+    
     func fillArray(line:Int)->Array<Array<Int>>{
         var num=1
         var result=Array<Array<Int>>()
@@ -42,6 +44,42 @@ struct arrayPractice{
             result.append(fillArray)
         }
         return result
+    }
+    
+    func setBoolArray(line:Int)->Array<Array<Bool>>{
+        let t:Bool=true
+        let f:Bool=false
+        var result=Array<Array<Bool>>()
+        for i in 1...line{
+            var boolArr=Array<Bool>()
+            if i==line{boolArr+=[]}
+        
+            else{for j in 1...line-i{
+                boolArr.append(f)
+                }
+            }
+            for k in 1...i{
+                boolArr.append(t)
+            }
+            //print()
+            result.append(boolArr)
+        }
+        return result
+        
+    }
+    
+    func printArray(array:Array<Array<Bool>>, newChar:Character){
+        for i in 0...array.count-1{
+            for j in 0...array[i].count-1{
+                if array[i][j]==false{
+                    print(" ",terminator:"")
+                }
+                else {
+                    print(newChar,terminator:"")
+                }
+            }
+        }
+        
     }
 }
 

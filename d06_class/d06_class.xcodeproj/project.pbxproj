@@ -10,6 +10,7 @@
 		F422ED141E247282003A722A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F422ED131E247282003A722A /* main.swift */; };
 		F422ED1B1E247384003A722A /* d06_StructPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F422ED1A1E247384003A722A /* d06_StructPractice.swift */; };
 		F422ED251E24A945003A722A /* d06_ArrayPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F422ED241E24A945003A722A /* d06_ArrayPractice.swift */; };
+		F4A32C231E2CE0C800B3F3DA /* makeMagicSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A32C221E2CE0C800B3F3DA /* makeMagicSquare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		F422ED131E247282003A722A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F422ED1A1E247384003A722A /* d06_StructPractice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d06_StructPractice.swift; sourceTree = "<group>"; };
 		F422ED241E24A945003A722A /* d06_ArrayPractice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d06_ArrayPractice.swift; sourceTree = "<group>"; };
+		F4A32C221E2CE0C800B3F3DA /* makeMagicSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = makeMagicSquare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				F422ED241E24A945003A722A /* d06_ArrayPractice.swift */,
 				F422ED131E247282003A722A /* main.swift */,
 				F422ED1A1E247384003A722A /* d06_StructPractice.swift */,
+				F4A32C221E2CE0C800B3F3DA /* makeMagicSquare.swift */,
 			);
 			path = d06_class;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A32C231E2CE0C800B3F3DA /* makeMagicSquare.swift in Sources */,
 				F422ED1B1E247384003A722A /* d06_StructPractice.swift in Sources */,
 				F422ED141E247282003A722A /* main.swift in Sources */,
 				F422ED251E24A945003A722A /* d06_ArrayPractice.swift in Sources */,

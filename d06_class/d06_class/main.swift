@@ -20,21 +20,32 @@ func testInterest(unitDay:Int)
     }
 }
 
+print("unitDay:1 ------------------------------")
 testInterest(unitDay:1)
-testInterest(unitDay:100)
+print()
 
+print("unitDay:100 ------------------------------")
+testInterest(unitDay:100)
+print()
+
+print("tempArray ------------------------------")
 let arrPra=arrayPractice()
 arrPra.printArray(array:arrPra.tempArray(lines:5))
 //arrayPractice.printArray(array:arrayPractice.tempArray(lines:5))
+print()
+
 
 let boolA=arrayPractice()
 print(boolA.setBoolArray(line: 5))
+print()
+print("boolArray ------------------------------")
 boolA.printArray(array:boolA.setBoolArray(line:5), newChar: "$")
-
-
+print()
 
 //D07_20170111
 
+
+print("??? ------------------------------")
 let fileM=FileManager()
 var result:[String]=[]
 do{
@@ -45,8 +56,11 @@ do{
 catch let error as NSError{
     print("에러: /(error)")
 }
+
 print(result)
 //"/Library/Desktop Pictures"
+print()
+
 
 
 let origin=CGPoint(x:0,y:0)
@@ -59,5 +73,7 @@ func add3(pointA: inout CGPoint){
     
 }
 
-
-
+print("makeMagicSquare ------------------------------")
+let mSquare=magicSquare()
+mSquare.printMagicSquare(pms:mSquare.makeMagicSquare(row:5))
+print()

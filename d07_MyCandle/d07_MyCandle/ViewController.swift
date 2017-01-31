@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {  //오버라이드? 화면에 보여줄 준비가 다 됐어
         super.viewDidLoad()
-        candleImage.image=UIImage(named: "candleOn.jpg")
+        candleImage.image=UIImage(named: "candleOff.jpg")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         titleLabel.backgroundColor=UIColor.clear
         titleLabel.text="안녕"
         
-        candleImage.image=UIImage(named: "candleOff.jpg")
+        candleImage.image=UIImage(named: "candleOn.jpg")
         
     }  //인터페이스 빌더의 액션
     

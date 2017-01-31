@@ -344,8 +344,8 @@ print("변수")
 func printS(line:Int){
     for i in 1...line{
         var result=""
-        if i<=line/2+1{
-            var dec=(line/2+1)-i
+        if i<line/2+1{
+            let dec=(line/2+1)-i
             let inc=i*2-1
             for j in 1...dec{
                 result += "⎵"
@@ -355,9 +355,14 @@ func printS(line:Int){
                 result += "*"
             }
         }
+        else if i==line/2+1{  //line%2 != 0 &&
+            for i in 1...line{
+                result += "*"
+            }
+        }
         else {
-            let inc=line-i-1
-            let dec=(line-i)*2-1
+            let inc=i-(line/2+1)
+            let dec=(line-i)*2+1
             for j in 1...inc{
                 result += "⎵"
             }
@@ -369,12 +374,54 @@ func printS(line:Int){
         print (result)
     }
 }
-printS(line:7)
+printS(line:6)
 print()
 
 
 
-print("팩토리얼")
+
+/*
+func printSS(line:Int){
+    for i in 1...line{
+        var result=""
+        if i<line/2+1{
+            let dec=(line/2+1)-i
+            let inc=i*2-1
+            for j in 1...dec{
+                result += "⎵"
+            }
+            
+            for j in 1...inc{
+                result += "*"
+            }
+        }
+        else if line%2 != 0 && i==line/2+1{
+            for i in 1...line{
+                result += "*"
+            }
+        }
+        else {
+            let inc=i-(line/2+1)
+            let dec=(line-i)*2+1
+            for j in 1...inc{
+                result += "⎵"
+            }
+            
+            for j in 1...dec{
+                result += "*"
+            }
+        }
+        print (result)
+    }
+}
+printSS(line:6)
+print()
+*/
+
+
+
+
+print("팩토리얼1")
 func factorial(n:Int)->Int
 {
     var result=1
@@ -384,9 +431,18 @@ func factorial(n:Int)->Int
     }
     return result
 }
-print(factorial(n:4))
+print(factorial(n:3))
 print()
 
+
+print("팩토리얼2")
+func facre(n:Int)->Int{
+    if n<1{
+        return 1
+    }
+    return n*facre(n:n-1)
+}
+print(facre(n:4))
 
 
 

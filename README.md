@@ -1,37 +1,37 @@
 ##swift
-- w1
- 1. 정사각형
- 2. 삼각형2
- 3. 삼각형숫자
- 4. 사각형숫자
- 5. 숫자반대로
- 6. fizzbuzz
- 7. 다이아몬드
- 8. 팩토리얼
+1. ###w1
+ + 정사각형
+ + 삼각형2
+ + 삼각형숫자
+ + 사각형숫자
+ + 숫자반대로
+ + fizzbuzz
+ + 다이아몬드
+ + 팩토리얼
 
-- MyCandle
+2. ###MyCandle
 
-- Measurement
- 1. PickerView
+3. ###Measurement
+ - PickerView
 
-- MVC
- 1. MyModel
- 2. JSON
+4. ###MVC
+ - MyModel
+ - JSON
 
-- PasswordValidator
+5. ###PasswordValidator
 
-- ShuffleDeck
- 1. enum
- 2. 이미지 불러오기(에셋 저장)
+6. ###ShuffleDeck
+ - enum
+ - 이미지 불러오기(에셋 저장)
 
 
-- SolitaireDeck
-- SocialNumber
-- TableView
-- PersonModel
-- Async Network Programming
-- CamClient
-- HIG
+7. ###SolitaireDeck
+8. ###SocialNumber
+9. ###TableView
+10. ###PersonModel
+11. ###Async Network Programming
+12. ###CamClient
+*** ###HIG
 
 
  

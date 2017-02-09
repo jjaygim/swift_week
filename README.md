@@ -9,3 +9,30 @@
  7. 다이아몬드
  8. 팩토리얼
 
+- MyCandle
+
+- Measurement
+ 1. PickerView
+
+- MVC
+ 1. MyModel
+ 2. JSON
+
+- PasswordValidator
+
+- ShuffleDeck
+ 1. enum
+ 2. 이미지 불러오기(에셋 저장)
+
+
+
+- SolitaireDeck
+- SocialNumber
+- TableView
+- PersonModel
+- Async Network Programming
+- CamClient
+- HIG
+
+
+ 
